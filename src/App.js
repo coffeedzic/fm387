@@ -80,8 +80,13 @@ const App = () => {
         <Route exact path="/stranica/:page">
           <Pages />
         </Route>
-      </Switch>  
-      <Footer />      
+      </Switch>
+      <Route 
+        render={({ location }) => ['/', '/home'].includes(location.pathname)
+            ? null
+            : <Footer />
+        }
+      />          
     </div>
   )
 }
