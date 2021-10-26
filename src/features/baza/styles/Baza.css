@@ -1,0 +1,66 @@
+.tier {
+  width: 100%;
+}
+
+.tier-name {
+  font-size: 20px;
+  text-transform: uppercase;
+  font-weight: 600;
+  margin-bottom: 16px;
+}
+
+.tier .tier-items {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+  row-gap: 4px;
+  margin-bottom: 32px;
+}
+
+.tier .tier-items .item {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  color: var(--gray);
+  text-decoration: none;
+  margin-bottom: 12px;
+}
+
+.tier .tier-items .item .image {
+  width: 8%;
+}
+
+.tier .tier-items .item .image img {
+  width: 100%;
+}
+
+.tier .tier-items .item .content {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+  margin-left: 16px;
+}
+
+.tier .tier-items .item .content .heading {
+  font-size: 16px;
+}
+
+.tier .tier-items .item:hover .content .heading {
+  color: var(--blue);
+}
+
+.tier .tier-items .item .content .desc {
+  font-size: 10px;
+  text-transform: uppercase;
+}
+
+
+
+
+
+

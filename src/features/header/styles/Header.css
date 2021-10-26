@@ -1,0 +1,8 @@
+header {
+  position: fixed;
+  width: 100%;
+  background-color: var(--white);
+  border-bottom: 1px solid var(--border);
+  box-shadow: var(--box-shadow);
+  z-index: 1000;
+}

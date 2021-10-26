@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  --menu-font: 'IBM Plex Sans', sans-serif;
+  --web-font: 'Inter', sans-serif;
+  --white: #ffffff;
+  --blue: #07a3cc;
+  --gray: #494949;
+  --black: #333333;
+  --border: #efefef;
+  --mobile-menu-item-border: rgba(0, 0, 0, 0.07);
+  --box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  --max-width: 1100px;
+  --header-height: 50px;
+  height: 100%;
+}
+
+body {
+  font-family: var(--web-font);
+  background-color: var(--white);
+  color: var(--gray);
+  -webkit-font-smoothing: antialiased;
+  height: 100%;
+}
+
+p {
+  font-size: 14px;
+  letter-spacing: 0.5px;
+  margin: 16px 0;
+}
+
+a {
+  color: var(--blue);
+}
+
+ul {
+  margin-left: 32px;
+  font-size: 12px;
+  margin-bottom: 32px;
+}
+
+#root {
+  height: 100%;
+}
+
+.app {
+  height: 100%;
+}
+
+.main {
+  padding-top: var(--header-height);
+  min-height: 80%;
+  margin-bottom: 50px;
+}
+
+.main .page {
+  width: var(--max-width);
+  margin: 32px auto;
+}
+
+.main .page-title {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  color: var(--black);
+  font-size: 24px;
+  font-weight: 800;
+  text-transform: uppercase;
+  margin: 4px 0;
+}
+
+.main .page-nav {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 4px 0;
+  font-size: 12px;
+  text-transform: uppercase;
+  color: var(--gray);
+  flex-wrap: wrap;
+}
+
+.main .page-nav a {
+  color: var(--gray);
+  text-decoration: none;
+}
+
+.main .page-nav a:hover {
+  color: var(--blue);
+}
+
+.main .page-nav span {
+  margin: 0 8px;
+}
+
+.main .main-flex {
+  width: var(--max-width);
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.main .main-flex main {
+  width: 73%;
+}
+
+.main .main-flex aside {
+  width: 25%;
+}
+
+
+@media only screen and (max-width: 1250px) {
+  .main .page,
+  .main .main-flex {
+    width: 95%;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .main .main-flex {
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .main .main-flex main,
+  .main .main-flex aside {
+    width: 100%;
+  }
+}
