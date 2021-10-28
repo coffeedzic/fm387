@@ -26,7 +26,7 @@ const Donacije = () => {
       {renderPageTitle()}
       <div className="main-flex">
         <main>
-          <p>Donacije su trenutno nedostupne.</p>
+          <p>Trenutno možete donirati jedino kupovinom Football Managera 2022 offline. Upute se nalaze na stranici 'Kupi FM'.</p>
         </main>
         <Widget />
       </div>      

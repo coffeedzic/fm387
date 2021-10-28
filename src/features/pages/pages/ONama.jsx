@@ -26,7 +26,9 @@ const ONama = () => {
       {renderPageTitle()}
       <div className="main-flex">
         <main>
-          Stranica o nama je trenutno u izradi.
+          <p>FM387 je bosanskohercegovačka zajednica igrača Football Managera osnovana početkom 2021. godine.</p>
+
+          <p>Trenutno brojimo preko 200 članova na forumu i preko 50 na discordu. Iz dana u dan ova brojka raste.</p>
         </main>
         <Widget />
       </div>      

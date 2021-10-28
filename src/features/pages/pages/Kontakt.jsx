@@ -26,9 +26,9 @@ const Kontakt = () => {
       {renderPageTitle()}
       <div className="main-flex">
         <main>
-          <p>Kontakt stranica je trenutno u izradi.</p>
+          <h4>E-mail</h4>
 
-          <p>Možete nas kontaktirati na mail – info@fm387.com</p>
+          <p>Kontaktirati nas možete putem našeg maila – info@fm387.com</p>
         </main>
         <Widget />
       </div>      
