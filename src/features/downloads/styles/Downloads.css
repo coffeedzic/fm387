@@ -1,0 +1,35 @@
+.dl {
+  width: 100%;
+}
+
+.dl .dl-name {
+  font-size: 20px;
+  text-transform: uppercase;
+  font-weight: 600;
+  margin-bottom: 16px;
+}
+
+.dl .dl-items {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+  row-gap: 4px;
+  margin-bottom: 32px;
+}
+
+.dl .dl-items .item {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  color: var(--gray);
+  text-decoration: none;
+  margin-bottom: 12px;
+  transition: all 0.4s ease-in-out;
+}
+
+.dl .dl-items .item:hover {
+  color: var(--blue);
+}

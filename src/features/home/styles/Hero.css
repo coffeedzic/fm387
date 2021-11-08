@@ -22,7 +22,7 @@
 }
 
 .hero .hero-wrap .content-alt {
-  align-items: flex-end;
+  align-items: center;
 }
 
 .hero .hero-wrap .content .sub-title {
@@ -48,6 +48,29 @@
 .hero .hero-wrap .content img {
   width: 80%;
   margin-bottom: 20px;
+}
+
+.hero .hero-wrap .content .download-btn {
+  width: 100%;  
+  display: flex;
+  justify-content: center;
+  align-items: center;  
+}
+
+.hero .hero-wrap .content .download-btn a {
+  background-color: rgba(255, 255, 255, 0.15);
+  color: var(--white);
+  font-size: 16px;
+  font-weight: 600;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 7px 20px;
+  border-radius: 30px;
+  transition: all 0.4s ease-in-out;
+}
+
+.hero .hero-wrap .content .download-btn a:hover {
+  background-color: rgba(255, 255, 255, 0.3);
 }
 
 @media only screen and (max-width: 1250px) {

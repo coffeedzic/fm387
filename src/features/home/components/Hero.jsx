@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 import heroImage from '../../../assets/images/hero.jpg'
 import fmLogo from '../../../assets/images/fm22logo.png'
@@ -28,6 +29,11 @@ const Hero = () => {
         </div>
         <div className="content content-alt">
           <img src={fmLogo} alt="Football Manager logo" />
+          <div className="download-btn">            
+            <a href="https://forum.fm387.com/viewtopic.php?f=18&t=14">
+              Preuzmi dodatak!
+            </a>            
+          </div>
         </div>
       </div>
     </div>

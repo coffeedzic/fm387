@@ -4,6 +4,10 @@ const mainMenu = [
     url: '/',
   },
   {
+    name: 'Forum',
+    url: '/forum',
+  },
+  {
     name: 'Baza',
     url: '/baza',
   },

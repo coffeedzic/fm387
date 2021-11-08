@@ -8,6 +8,7 @@ import { setLeagues, setPlayers, setTeams } from './redux/reducers/baza-reducer'
 import Header from './features/header/components/Header'
 import Footer from './features/footer/components/Footer'
 import Home from './features/home/components/Home'
+import Forum from './features/forum/components/Forum'
 import Baza from './features/baza/components/Baza'
 import Liga from './features/baza/components/Liga'
 import Tim from './features/baza/components/Tim'
@@ -58,6 +59,9 @@ const App = () => {
       <Switch>
         <Route exact path={["/", "/home"]}>
           <Home />
+        </Route>
+        <Route exact path="/forum">
+          <Forum/>
         </Route>
         <Route exact path="/baza">
           <Baza />
